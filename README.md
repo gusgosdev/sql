@@ -1,2 +1,2 @@
-# sql
-Here I'm going to share my SQL code, I'm learning and will write my notes that I will know in tutorials or documents
+# SQL
+En este repositorio voy a ir guardando mis notas y códigos SQL que voy aprendiendo.
