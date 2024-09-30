@@ -1,5 +1,6 @@
 # IN / NOT IN
 
+- Son cláusulas
 - Son operadores que nos ayudan a filtrar resultados en una consulta
 
 ## Ejemplos de uso:
