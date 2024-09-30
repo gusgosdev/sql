@@ -1,5 +1,5 @@
 # ORDER BY
-
+- Es una cláusula
 - ORDER BY nos permite ordenar los datos de acuerdo a nuestras preferencias  
 - Por defecto el orden es de menor a mayor
 
