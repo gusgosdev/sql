@@ -1,5 +1,5 @@
 # LIMIT
-- Es una cláusula
+- LIMIT es una cláusula
 - Nos permite hacer una consulta de cuantos resultados queremos obtener
 
 ## Ejemplos de uso
