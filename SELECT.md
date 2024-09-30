@@ -8,11 +8,11 @@ Siempre se debe usar SELECT para seleccionar columnas de una base de datos
 
 ## Ejemplos de uso:
 
-// Selecciona todas las columnas de mi tabla _miTabla_  
+// Selecciona todas las columnas de mi tabla _**miTabla**_  
 SELECT * FROM miTabla
 
-// Selecciona la columna _user_id_ de mi tabla _miTabla_  
+// Selecciona la columna _**user_id**_ de mi tabla _**miTabla**_  
 SELECT user_id FROM miTabla
 
-// Selecciona 2 columnas _user_id_ y _nombre_ de mi tabla _miTabla_  
+// Selecciona las columnas _**user_id**_ y _**nombre**_ de mi tabla _**miTabla**_  
 SELECT user_id, nombre FROM miTabla
