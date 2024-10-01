@@ -20,3 +20,6 @@
 
 // MIN() nos ayuda a obtener el valor mínimo de una columna, en este caso de la columna _**duracion**_  
 `SELECT MIN(duracion) FROM Episodios WHERE serie_id = 2`
+
+// AVG nos permite obtener el promedio de nuestra consulta  
+`SELECT AVG(duracion) FROM Episodios WHERE serie_id IN (1, 2)`
