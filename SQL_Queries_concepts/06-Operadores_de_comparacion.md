@@ -10,8 +10,10 @@
    - `>= Mayor igual que..`
  
 ## Ejemplo de uso:
-// Seleccionamos las series estrenadas después del 2015  
-`SELECT * FROM series WHERE año_lanzamiento > 2015`
+```sql
+-- Seleccionamos las series estrenadas después del 2015  
+SELECT * FROM series WHERE año_lanzamiento > 2015
 
-// Seleccionamos las series estrenadas antes del 2014  
-`SELECT * FROM series WHERE año_lanzamiento < 2014`
+-- Seleccionamos las series estrenadas antes del 2014  
+SELECT * FROM series WHERE año_lanzamiento < 2014
+```

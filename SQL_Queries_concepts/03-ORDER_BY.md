@@ -4,12 +4,14 @@
 - Por defecto el orden es de menor a mayor
 
 ## Ejemplos de uso:
-// Ordenamos los datos de la columna _**duracion**_ (las dos son válidas, ASC de ascendente)  
-`SELECT  titulo, duracion FROM episodios ORDER BY duracion`  
-`SELECT  titulo, duracion FROM episodios ORDER BY duracion ASC`
+```sql
+-- Ordenamos los datos de la columna _duracion_ (las dos son válidas, ASC de ascendente)  
+SELECT  titulo, duracion FROM episodios ORDER BY duracion
+SELECT  titulo, duracion FROM episodios ORDER BY duracion ASC
 
-// Ordenamos los datos por orden de mayor a menor de la columna _**duracion**_  
-`SELECT  titulo, duracion FROM episodios ORDER BY duracion DESC`
+-- Ordenamos los datos de la columna _duracion_ por orden de mayor a menor   
+SELECT  titulo, duracion FROM episodios ORDER BY duracion DESC
 
-// También ordena palabras, en este caso alfabéticamente  
-`SELECT  titulo, duracion FROM episodios ORDER BY titulo`
+-- También ordena palabras, en este caso alfabéticamente  
+SELECT  titulo, duracion FROM episodios ORDER BY titulo
+```

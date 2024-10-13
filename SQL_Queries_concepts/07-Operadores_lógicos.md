@@ -6,12 +6,15 @@
 - NOT, lo utilizamos para incluir solo filas donde una condición no es verdadera
 
 ## Ejemplos de uso:
+```sql
+-- Hacemos una consulta en la tabla _episodios_, con condiciones en la columna _duracion_ y _rating_imdb_  
+SELECT titulo, duracion, rating_imdb FROM episodios 
+WHERE duracion > 45 AND rating_imdb >= 9
 
-// Hacemos una consulta en nuestra tabla _**episodios**_, con condiciones en la columna _**duracion**_ y _**rating_imdb**_  
-`SELECT titulo, duracion, rating_imdb FROM epiodios WHERE duracion > 45 AND rating_imdb >= 9`
+-- De la tabla _Series_ obtenemos los datos que en la columna _**genero**_ contengan _Comedia_ y _Animación_  
+SELECT * FROM Series
+WHERE (genero = 'Comedia' OR genero = 'Animación')
 
-// De nuestra tabla _**Series**_ obtenemos los datos que en la columna _**genero**_ contengan _Comedia_ y _Animación_  
-`SELECT * FROM Series WHERE (genero = 'Comedia' OR genero = 'Animación')`
-
-// Seleccionamos todos los géneros de nuestra columna _**genero**_ menos _Comedia_  
-`SELECT * FROM Series WHERE genero <> 'Comedia'`
+-- Seleccionamos todos los géneros de nuestra columna _genero_ menos _Comedia_  
+SELECT * FROM Series WHERE genero <> 'Comedia'
+```

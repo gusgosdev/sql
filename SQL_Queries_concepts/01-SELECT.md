@@ -6,11 +6,13 @@
 
 ## Ejemplos de uso:
 
-// Selecciona todas las columnas de mi tabla _**miTabla**_  
-`SELECT * FROM miTabla`
+```sql
+-- Selecciona todas las columnas de la tabla _miTabla_
+SELECT * FROM miTabla
 
-// Selecciona la columna _**user_id**_ de mi tabla _**miTabla**_  
-`SELECT user_id FROM miTabla`
+-- Selecciona la columna _user_id_ de la tabla _miTabla_  
+SELECT user_id FROM miTabla
 
-// Selecciona las columnas _**user_id**_ y _**nombre**_ de mi tabla _**miTabla**_  
-`SELECT user_id, nombre FROM miTabla`
+-- Selecciona las columnas _user_id_ y _nombre_ de la tabla _miTabla_  
+SELECT user_id, nombre FROM miTabla
+```

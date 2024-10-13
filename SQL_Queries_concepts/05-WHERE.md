@@ -4,8 +4,10 @@
 - WHERE nos permite filtrar resultados en función de una determinada condición
 
 ## Ejemplos de uso:
-// Obtenemos las series que solo sean de género 'Drama' de nuestra tabla _**Series**_  
-`SELECT * FROM Series WHERE genero = 'Drama'`
+```sql
+-- Obtenemos las series que solo sean de género 'Drama' de nuestra tabla _**Series**_  
+SELECT * FROM Series WHERE genero = 'Drama'
 
-// Obtenemos los datos de nuestra tabla _**Series**_ que sean mayor a 2010 en la columna _**año_lanzamiento**_  
-`SELECT * FROM Series WHERE año_lanzamiento > 2010`
+-- Obtenemos los datos de la tabla _Series_ que sean mayor a 2010 
+SELECT * FROM Series WHERE año_lanzamiento > 2010
+```

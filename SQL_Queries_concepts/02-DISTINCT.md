@@ -3,5 +3,7 @@
 - Obtener los valores únicos de una columna (No obtener los duplicados)
 
 ## Ejemplos de uso:
-// Selecciona los valores únicos de la columna _**generos**_ de mi tabla _**series**_  
-`SELECT DISTINCT genero FROM series`
+```sql
+-- Nos devuelve los valores únicos de la columna _generos_ de la tabla _series_  
+SELECT DISTINCT genero FROM series
+```

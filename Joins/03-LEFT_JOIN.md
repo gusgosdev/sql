@@ -5,8 +5,10 @@
 con la _clave_ en la tabla de la derecha
 
 ## Ejemplo de uso:
-`SELECT series.titulo AS 'Titulo de la serie', episodios.titulo AS 'Titulo de episodio'
+```sql
+SELECT series.titulo AS 'Titulo de la serie', episodios.titulo AS 'Titulo de episodio'
 FROM series
 LEFT JOIN episodios
 ON series.serie_id = episodios.serie_id
-ORDER BY series.titulo`
+ORDER BY series.titulo
+```
