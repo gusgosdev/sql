@@ -5,10 +5,11 @@
 - Estructura:
 ```sql
 WITH <nombre_de_la_CTE> AS (SELECT * FROM mi_tabla)
+
 SELECT * FROM <nombre_de_la_CTE>
 ```
 
-## Ejemplo de uso:
+## Ejemplo de uso
 Ejemplo 01:
 ```sql
 WITH ListaEpisodios AS (

@@ -9,11 +9,16 @@
    - `<= Menor igual que..`
    - `>= Mayor igual que..`
  
-## Ejemplo de uso:
+## Ejemplos de uso
+Ejemplo 01:
 ```sql
 -- Seleccionamos las series estrenadas después del 2015  
-SELECT * FROM series WHERE año_lanzamiento > 2015
-
+SELECT * FROM series 
+WHERE año_lanzamiento > 2015
+```
+Ejemplo 02:
+```sql
 -- Seleccionamos las series estrenadas antes del 2014  
-SELECT * FROM series WHERE año_lanzamiento < 2014
+SELECT * FROM series 
+WHERE año_lanzamiento < 2014
 ```

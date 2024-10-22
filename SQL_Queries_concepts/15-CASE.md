@@ -4,7 +4,7 @@
 - Es similar a IF
 - CASE es más flexible, ya que nos permite incluir varios argumentos
 
-## Ejemplos de uso:
+## Ejemplo de uso
 ```sql
 SELECT titulo, año_lanzamiento,
     CASE
